@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9A2BF7C1708E75A002F6CC1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9A2BF7B1708E75A002F6CC1 /* UIKit.framework */; };
+		A9A2BF7E1708E75A002F6CC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9A2BF7D1708E75A002F6CC1 /* Foundation.framework */; };
+		A9A2BF801708E75A002F6CC1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9A2BF7F1708E75A002F6CC1 /* CoreGraphics.framework */; };
+		A9A2BF861708E75A002F6CC1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9A2BF841708E75A002F6CC1 /* InfoPlist.strings */; };
+		A9A2BF881708E75A002F6CC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A2BF871708E75A002F6CC1 /* main.m */; };
+		A9A2BF8C1708E75A002F6CC1 /* STAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A2BF8B1708E75A002F6CC1 /* STAppDelegate.m */; };
+		A9A2BF8E1708E75A002F6CC1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A9A2BF8D1708E75A002F6CC1 /* Default.png */; };
+		A9A2BF901708E75A002F6CC1 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9A2BF8F1708E75A002F6CC1 /* Default@2x.png */; };
+		A9A2BF921708E75A002F6CC1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9A2BF911708E75A002F6CC1 /* Default-568h@2x.png */; };
+		A9A2BF951708E75A002F6CC1 /* STViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A2BF941708E75A002F6CC1 /* STViewController.m */; };
+		A9A2BF981708E75A002F6CC1 /* STViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9A2BF961708E75A002F6CC1 /* STViewController.xib */; };
+		A9A2BFBF1708E92A002F6CC1 /* StretchableImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9A2BFBE1708E92A002F6CC1 /* StretchableImage@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A9A2BF781708E75A002F6CC1 /* ImageStretchDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageStretchDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9A2BF7B1708E75A002F6CC1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A9A2BF7D1708E75A002F6CC1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A9A2BF7F1708E75A002F6CC1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A9A2BF831708E75A002F6CC1 /* ImageStretchDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ImageStretchDemo-Info.plist"; sourceTree = "<group>"; };
+		A9A2BF851708E75A002F6CC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A9A2BF871708E75A002F6CC1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A9A2BF891708E75A002F6CC1 /* ImageStretchDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ImageStretchDemo-Prefix.pch"; sourceTree = "<group>"; };
+		A9A2BF8A1708E75A002F6CC1 /* STAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STAppDelegate.h; sourceTree = "<group>"; };
+		A9A2BF8B1708E75A002F6CC1 /* STAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STAppDelegate.m; sourceTree = "<group>"; };
+		A9A2BF8D1708E75A002F6CC1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A9A2BF8F1708E75A002F6CC1 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A9A2BF911708E75A002F6CC1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A9A2BF931708E75A002F6CC1 /* STViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STViewController.h; sourceTree = "<group>"; };
+		A9A2BF941708E75A002F6CC1 /* STViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STViewController.m; sourceTree = "<group>"; };
+		A9A2BF971708E75A002F6CC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/STViewController.xib; sourceTree = "<group>"; };
+		A9A2BFBE1708E92A002F6CC1 /* StretchableImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "StretchableImage@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9A2BF751708E75A002F6CC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9A2BF7C1708E75A002F6CC1 /* UIKit.framework in Frameworks */,
+				A9A2BF7E1708E75A002F6CC1 /* Foundation.framework in Frameworks */,
+				A9A2BF801708E75A002F6CC1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9A2BF6F1708E75A002F6CC1 = {
+			isa = PBXGroup;
+			children = (
+				A9A2BF811708E75A002F6CC1 /* ImageStretchDemo */,
+				A9A2BF7A1708E75A002F6CC1 /* Frameworks */,
+				A9A2BF791708E75A002F6CC1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9A2BF791708E75A002F6CC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9A2BF781708E75A002F6CC1 /* ImageStretchDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9A2BF7A1708E75A002F6CC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9A2BF7B1708E75A002F6CC1 /* UIKit.framework */,
+				A9A2BF7D1708E75A002F6CC1 /* Foundation.framework */,
+				A9A2BF7F1708E75A002F6CC1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A9A2BF811708E75A002F6CC1 /* ImageStretchDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A9A2BF8A1708E75A002F6CC1 /* STAppDelegate.h */,
+				A9A2BF8B1708E75A002F6CC1 /* STAppDelegate.m */,
+				A9A2BF931708E75A002F6CC1 /* STViewController.h */,
+				A9A2BF941708E75A002F6CC1 /* STViewController.m */,
+				A9A2BF961708E75A002F6CC1 /* STViewController.xib */,
+				A9A2BF821708E75A002F6CC1 /* Supporting Files */,
+			);
+			path = ImageStretchDemo;
+			sourceTree = "<group>";
+		};
+		A9A2BF821708E75A002F6CC1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9A2BF831708E75A002F6CC1 /* ImageStretchDemo-Info.plist */,
+				A9A2BF841708E75A002F6CC1 /* InfoPlist.strings */,
+				A9A2BF871708E75A002F6CC1 /* main.m */,
+				A9A2BF891708E75A002F6CC1 /* ImageStretchDemo-Prefix.pch */,
+				A9A2BF8D1708E75A002F6CC1 /* Default.png */,
+				A9A2BF8F1708E75A002F6CC1 /* Default@2x.png */,
+				A9A2BF911708E75A002F6CC1 /* Default-568h@2x.png */,
+				A9A2BFBE1708E92A002F6CC1 /* StretchableImage@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9A2BF771708E75A002F6CC1 /* ImageStretchDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9A2BF9B1708E75A002F6CC1 /* Build configuration list for PBXNativeTarget "ImageStretchDemo" */;
+			buildPhases = (
+				A9A2BF741708E75A002F6CC1 /* Sources */,
+				A9A2BF751708E75A002F6CC1 /* Frameworks */,
+				A9A2BF761708E75A002F6CC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageStretchDemo;
+			productName = ImageStretchDemo;
+			productReference = A9A2BF781708E75A002F6CC1 /* ImageStretchDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9A2BF701708E75A002F6CC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ST;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Bill Williams";
+			};
+			buildConfigurationList = A9A2BF731708E75A002F6CC1 /* Build configuration list for PBXProject "ImageStretchDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A9A2BF6F1708E75A002F6CC1;
+			productRefGroup = A9A2BF791708E75A002F6CC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9A2BF771708E75A002F6CC1 /* ImageStretchDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9A2BF761708E75A002F6CC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9A2BF861708E75A002F6CC1 /* InfoPlist.strings in Resources */,
+				A9A2BF8E1708E75A002F6CC1 /* Default.png in Resources */,
+				A9A2BF901708E75A002F6CC1 /* Default@2x.png in Resources */,
+				A9A2BF921708E75A002F6CC1 /* Default-568h@2x.png in Resources */,
+				A9A2BF981708E75A002F6CC1 /* STViewController.xib in Resources */,
+				A9A2BFBF1708E92A002F6CC1 /* StretchableImage@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9A2BF741708E75A002F6CC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9A2BF881708E75A002F6CC1 /* main.m in Sources */,
+				A9A2BF8C1708E75A002F6CC1 /* STAppDelegate.m in Sources */,
+				A9A2BF951708E75A002F6CC1 /* STViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A9A2BF841708E75A002F6CC1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9A2BF851708E75A002F6CC1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A9A2BF961708E75A002F6CC1 /* STViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9A2BF971708E75A002F6CC1 /* en */,
+			);
+			name = STViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9A2BF991708E75A002F6CC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A9A2BF9A1708E75A002F6CC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9A2BF9C1708E75A002F6CC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageStretchDemo/ImageStretchDemo-Prefix.pch";
+				INFOPLIST_FILE = "ImageStretchDemo/ImageStretchDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A9A2BF9D1708E75A002F6CC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageStretchDemo/ImageStretchDemo-Prefix.pch";
+				INFOPLIST_FILE = "ImageStretchDemo/ImageStretchDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9A2BF731708E75A002F6CC1 /* Build configuration list for PBXProject "ImageStretchDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9A2BF991708E75A002F6CC1 /* Debug */,
+				A9A2BF9A1708E75A002F6CC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9A2BF9B1708E75A002F6CC1 /* Build configuration list for PBXNativeTarget "ImageStretchDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9A2BF9C1708E75A002F6CC1 /* Debug */,
+				A9A2BF9D1708E75A002F6CC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9A2BF701708E75A002F6CC1 /* Project object */;
+}
